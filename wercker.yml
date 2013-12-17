@@ -1,4 +1,5 @@
 box: wercker/ruby
+command-timeout: 60
 build:
     steps:
         - script:
