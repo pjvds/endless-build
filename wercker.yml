@@ -1,0 +1,7 @@
+box: wercker/ruby
+build:
+    steps:
+        - script:
+            name: While true
+            code: |
+                while :; do echo 'Hi!'; sleep 30s; done
